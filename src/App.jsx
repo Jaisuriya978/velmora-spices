@@ -546,7 +546,7 @@ function App() {
                 playsInline
                 style={{
                   width: "600px",
-                  height: "900px",
+                  height: "700px",
                   objectFit: "cover"
                 }}
               >
@@ -584,7 +584,7 @@ function App() {
 
       {/* FOOTER */}
       <footer style={{ textAlign: "left", padding: "30px", background: "#E9E6ED", color: "black" }}>
-        © 2026 Velmora Spices
+        © 2026 Velmora Spices. All Rights Reserved.
       </footer>
     </div >
   );
