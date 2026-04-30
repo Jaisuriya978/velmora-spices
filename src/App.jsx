@@ -18,7 +18,7 @@ const spicesData = [
 
   {
     name: "Red Chili",
-    icon:"https://i.pinimg.com/736x/73/e9/92/73e99205045434fbcbcc052ec2b9437f.jpg",
+    icon: "https://i.pinimg.com/736x/73/e9/92/73e99205045434fbcbcc052ec2b9437f.jpg",
     desc: "Adds heat and depth to dishes, made from dried red chilies.",
     img: ["https://i.pinimg.com/736x/e0/5c/3b/e05c3b4f7e3f68db6b1f26db21e6a159.jpg",
       "https://i.pinimg.com/736x/24/32/66/2432667533495c00a913dc0a676b8a49.jpg",
@@ -28,7 +28,7 @@ const spicesData = [
   },
   {
     name: "Cumin",
-    icon:"https://i.pinimg.com/1200x/88/fe/8c/88fe8cd5b9ea1e1e7f75b2205764ef71.jpg",
+    icon: "https://i.pinimg.com/1200x/88/fe/8c/88fe8cd5b9ea1e1e7f75b2205764ef71.jpg",
     desc: "Earthy and aromatic spice widely used in Indian cooking.",
     img: ["https://i.pinimg.com/1200x/20/84/a3/2084a3b2c2f46446d0440452329996f3.jpg",
       "https://i.pinimg.com/1200x/17/2f/eb/172feb01c25a42e566b82f0561e39f06.jpg",
@@ -37,7 +37,7 @@ const spicesData = [
   },
   {
     name: "Coriander",
-    icon:"https://i.pinimg.com/736x/29/4a/58/294a586ed7b3a653db159faff268ab48.jpg",
+    icon: "https://i.pinimg.com/736x/29/4a/58/294a586ed7b3a653db159faff268ab48.jpg",
     desc: "Mild citrus flavor, used in both whole and ground forms.",
     img: ["https://i.pinimg.com/736x/5f/40/41/5f40417a069e53ae0e7ee0ae8cf3cf48.jpg",
       "https://i.pinimg.com/1200x/a5/0c/5c/a50c5c75305265e8f66674b4a53fdbc2.jpg",
@@ -46,7 +46,7 @@ const spicesData = [
   },
   {
     name: "Cardamom",
-    icon:"https://i.pinimg.com/1200x/64/06/30/640630541e80b40d940be40b0f8ff410.jpg",
+    icon: "https://i.pinimg.com/1200x/64/06/30/640630541e80b40d940be40b0f8ff410.jpg",
     desc: "Known as the 'Queen of Spices', cardamom has a sweet, floral aroma used in desserts, tea, and premium dishes.",
     img: ["https://i.pinimg.com/1200x/03/93/b9/0393b94827d2cb5318f7ca492bfb050c.jpg",
       "https://i.pinimg.com/1200x/1c/4f/f5/1c4ff5b655486cff1d38b89aeb2e940c.jpg",
@@ -56,7 +56,7 @@ const spicesData = [
   {
     name: "Black Pepper",
     desc: "Called the 'King of Spices', black pepper delivers sharp heat and is essential in global cuisines.",
-    icon:"https://i.pinimg.com/1200x/24/51/7e/24517e958afd4a2c6dbfc6f9afb537f0.jpg",
+    icon: "https://i.pinimg.com/1200x/24/51/7e/24517e958afd4a2c6dbfc6f9afb537f0.jpg",
     img: ["https://i.pinimg.com/1200x/0d/63/f5/0d63f55563df77cd41ff45e7bc8f673b.jpg",
       "https://i.pinimg.com/736x/30/72/cc/3072ccf2d818b5e861aeee6cab76f59f.jpg",
       "https://i.pinimg.com/1200x/1c/98/db/1c98dbb3c860456c405e4e4e351ca4a3.jpg",
@@ -65,7 +65,7 @@ const spicesData = [
   {
     name: "Curry Leaves",
     desc: "Fresh and aromatic leaves widely used in South Indian cooking, known for their unique flavor and health benefits.",
-    icon:"https://i.pinimg.com/1200x/70/8c/34/708c34edaf06de5c5c76f947492222cf.jpg",
+    icon: "https://i.pinimg.com/1200x/70/8c/34/708c34edaf06de5c5c76f947492222cf.jpg",
     img: ["https://i.pinimg.com/1200x/b0/29/1c/b0291c388e13185ed7917040455cc159.jpg",
       "https://i.pinimg.com/1200x/e9/6e/4b/e96e4bf936db0b49330495d4a8707484.jpg",
       "https://i.pinimg.com/736x/75/22/72/752272b6026414bfce09189404ad9db1.jpg",
@@ -73,7 +73,7 @@ const spicesData = [
   },
   {
     name: "Cinnamon Stick",
-    icon:"https://i.pinimg.com/736x/e4/b6/0a/e4b60aa3399a734f00ca206f17837034.jpg",
+    icon: "https://i.pinimg.com/736x/e4/b6/0a/e4b60aa3399a734f00ca206f17837034.jpg",
     desc: "Sweet and woody spice used in desserts, teas, and savory dishes, adding warmth and rich aroma.",
     img: ["https://i.pinimg.com/1200x/b9/c8/f7/b9c8f794f6f502003c6c12399681d05a.jpg",
       "https://i.pinimg.com/236x/04/2f/b6/042fb6a736d4ade40e9f48dc159d3dec.jpg",
@@ -87,15 +87,15 @@ const spicesData = [
 const videos = [
   {
     id: 2,
-    src: "https://v1.pinimg.com/videos/mc/720p/ca/b4/52/cab452e6efbae74911797ceddcbf2304.mp4",
+    src: "https://www.pexels.com/download/video/8296067/",
     thumb: "/video-thumb.jpg",
-    
+
   },
   {
     id: 3,
     src: "https://www.pexels.com/download/video/32736578/",
     thumb: "/video-thumb.jpg",
-    
+
   }
 ];
 
@@ -127,46 +127,52 @@ function App() {
     <div style={{ fontFamily: "Arial" }}>
       {/* NAVBAR */}
       {/* NAVBAR */}
-<nav
-  style={{
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "center",
-    padding: "15px 40px",
-    background: "#E9E6ED",
-    color: "black",
-  }}
->
-  {/* LEFT: LOGO */}
-  <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-    <img
-      src="image.png"
-      alt="logo"
-      width={55}
-      style={{ borderRadius: "50%" }}
-    />
-    <span style={{ fontWeight: "bold", fontSize: "20px" }}>
-      VELMORA
-    </span>
-  </div>
+      <nav
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "15px 40px",
+          background: "#E9E6ED",
+          color: "black",
+        }}
+      >
+        {/* LEFT: LOGO */}
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <img
+            src="image.png"
+            alt="logo"
+            width={55}
+            style={{ borderRadius: "50%" }}
+          />
+          <div style={{ textAlign: "center", lineHeight: "1.1" }}>
+            <div style={{ fontWeight: "bold", fontSize: "20px" }}>
+              VELMORA
+            </div>
 
-  {/* RIGHT: MENU */}
-  <div style={{ display: "flex", gap: "70px" }}>
-    <a href="#home" style={{ color: "black", textDecoration: "none" }}>
-      Home
-    </a>
-    <a href="#about" style={{ color: "black", textDecoration: "none" }}>
-      About
-    </a>
-    <a href="#spices" style={{ color: "black", textDecoration: "none" }}>
-      Spices
-    </a>
-    <a href="#video" style={{ color: "black", textDecoration: "none" }}>
-      Video
-    </a>
-  </div>
-</nav>
-      
+            <div style={{ fontWeight: "500", fontSize: "18px", color: "#555" }}>
+              Spices
+            </div>
+          </div>
+        </div>
+
+        {/* RIGHT: MENU */}
+        <div style={{ display: "flex", gap: "70px" }}>
+          <a href="#home" style={{ color: "black", textDecoration: "none" }}>
+            Home
+          </a>
+          <a href="#about" style={{ color: "black", textDecoration: "none" }}>
+            About
+          </a>
+          <a href="#spices" style={{ color: "black", textDecoration: "none" }}>
+            Spices
+          </a>
+          <a href="#video" style={{ color: "black", textDecoration: "none" }}>
+            Video
+          </a>
+        </div>
+      </nav>
+
 
       {/* HOME */}
       <section
@@ -317,7 +323,7 @@ function App() {
             />
 
             {/* FLOATING CARD */}
-            
+
           </div>
 
           {/* RIGHT SIDE - CONTENT */}
@@ -503,8 +509,11 @@ function App() {
       </section>
 
 
-      
+
       {/* VIDEO */}
+
+
+
 
       <section
         id="video"
@@ -512,10 +521,10 @@ function App() {
           padding: "20px 10px",
           textAlign: "center",
           background: "white",
-          color: "white"
+          color: "white",
         }}
       >
-        <h2 style={{ fontSize: "32px", marginBottom: "10px", color:"green" }}> Video
+        <h2 style={{ fontSize: "32px", marginBottom: "10px", color: "green" }}>
 
         </h2>
 
@@ -525,56 +534,89 @@ function App() {
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: "25px",
             maxWidth: "1200px",
-            margin: "auto"
+            margin: "auto",
           }}
         >
           {videos.map((video) => (
             <div
               key={video.id}
               style={{
-                position: "relative",
                 borderRadius: "20px",
                 overflow: "hidden",
-                boxShadow: "0 10px 30px rgba(0,0,0,0.4)"
+                boxShadow: "0 10px 30px rgba(0,0,0,0.4)",
+                background: "#fff",
               }}
             >
-              {/* 🎥 Always autoplay video */}
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                style={{
-                  width: "600px",
-                  height: "700px",
-                  objectFit: "cover"
-                }}
-              >
-                <source src={video.src} type="video/mp4" />
-              </video>
-
-              {/* 🌑 Overlay */}
+              {/* 🎥 Video container */}
               <div
                 style={{
-                  position: "absolute",
-                  inset: 0,
-                  background: "rgba(0,0,0,0.3)"
-                }}
-              />
-
-              {/* 📝 Title */}
-              <p
-                style={{
-                  position: "absolute",
-                  bottom: "15px",
-                  left: "15px",
-                  margin: 0,
-                  fontSize: "16px",
-                  fontWeight: "600"
+                  position: "relative",
+                  aspectRatio: "16 / 9",
                 }}
               >
-                {video.title}
-              </p>
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
+                >
+                  <source src={video.src} type="video/mp4" />
+                </video>
+
+                {/* 🌑 Overlay */}
+                <div
+                  style={{
+                    position: "absolute",
+                    inset: 0,
+                    background: "rgba(0,0,0,0.3)",
+                  }}
+                />
+
+                {/* 📝 Title on video */}
+                <p
+                  style={{
+                    position: "absolute",
+                    bottom: "10px",
+                    left: "10px",
+                    margin: 0,
+                    fontSize: "16px",
+                    fontWeight: "600",
+                    color: "white",
+                  }}
+                >
+                  {video.title}
+                </p>
+              </div>
+
+              {/* 🟢 Button BELOW video */}
+              <div style={{ padding: "12px", textAlign: "center" }}>
+                <button
+                  style={{
+                    padding: "10px 18px",
+                    borderRadius: "25px",
+                    border: "none",
+                    background: "green",
+                    color: "white",
+                    fontSize: "14px",
+                    fontWeight: "600",
+                    cursor: "pointer",
+                    transition: "0.3s ease",
+                  }}
+                  onMouseOver={(e) => {
+                    e.target.style.background = "#0a7a0a";
+                  }}
+                  onMouseOut={(e) => {
+                    e.target.style.background = "green";
+                  }}
+                >
+                  Explore / About
+                </button>
+              </div>
             </div>
           ))}
         </div>
