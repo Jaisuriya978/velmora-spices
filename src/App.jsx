@@ -10,9 +10,9 @@ const spicesData = [
     icon: "https://i.pinimg.com/736x/3e/f1/43/3ef143c731e347f88945c0acd6a029d0.jpg",
     desc: "Rich in curcumin, turmeric is known for its vibrant color and health benefits.",
     img: [
-      "https://i.pinimg.com/1200x/5b/0b/6a/5b0b6a762da3934397f824b8cd567e8d.jpg",
-      "https://i.pinimg.com/736x/0e/c0/b3/0ec0b31f1531a1169bc2f3af42e0d539.jpg",
-      "https://i.pinimg.com/1200x/0f/f6/99/0ff699d114715026e9b5edde0ee0ed99.jpg",
+      "https://i.pinimg.com/736x/a1/a1/27/a1a12706f3e130f4754fb9bca342f5ae.jpg",
+      "https://i.pinimg.com/1200x/2b/c6/e0/2bc6e08cd51617bca3a7847b82b3c158.jpg",
+      "https://i.pinimg.com/1200x/db/a7/41/dba7417557ffd57c74491a69b91279b8.jpg",
     ],
   },
 
@@ -511,10 +511,6 @@ function App() {
 
 
       {/* VIDEO */}
-
-
-
-
       <section
         id="video"
         style={{
@@ -524,9 +520,7 @@ function App() {
           color: "white",
         }}
       >
-        <h2 style={{ fontSize: "32px", marginBottom: "10px", color: "green" }}>
 
-        </h2>
 
         <div
           style={{
@@ -541,82 +535,93 @@ function App() {
             <div
               key={video.id}
               style={{
+                position: "relative",
                 borderRadius: "20px",
                 overflow: "hidden",
                 boxShadow: "0 10px 30px rgba(0,0,0,0.4)",
-                background: "#fff",
+                aspectRatio: "16 / 9",
               }}
             >
-              {/* 🎥 Video container */}
-              <div
+              {/* 🎥 Video */}
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
                 style={{
-                  position: "relative",
-                  aspectRatio: "16 / 9",
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
                 }}
               >
-                <video
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                  }}
-                >
-                  <source src={video.src} type="video/mp4" />
-                </video>
+                <source src={video.src} type="video/mp4" />
+              </video>
 
-                {/* 🌑 Overlay */}
-                <div
-                  style={{
-                    position: "absolute",
-                    inset: 0,
-                    background: "rgba(0,0,0,0.3)",
-                  }}
-                />
+              {/* 🌑 Overlay */}
+              <div
+                style={{
+                  position: "absolute",
+                  inset: 0,
+                  background: "rgba(0,0,0,0.4)",
+                }}
+              />
 
-                {/* 📝 Title on video */}
+              {/* 📝 Title + Centered Description */}
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: "50px",
+                  left: "0",
+                  right: "0",
+                  textAlign: "center", // ✅ center align
+                  zIndex: 2,
+                  padding: "0 10px",
+                }}
+              >
                 <p
                   style={{
-                    position: "absolute",
-                    bottom: "10px",
-                    left: "10px",
                     margin: 0,
-                    fontSize: "16px",
-                    fontWeight: "600",
-                    color: "white",
+                    fontSize: "18px",
+                    fontWeight: "700",
+                    color: "#fff",
                   }}
                 >
                   {video.title}
                 </p>
-              </div>
 
-              {/* 🟢 Button BELOW video */}
-              <div style={{ padding: "12px", textAlign: "center" }}>
-                <button
+                {/* ✅ Two-line description */}
+                <p
                   style={{
-                    padding: "10px 18px",
-                    borderRadius: "25px",
-                    border: "none",
-                    background: "green",
-                    color: "white",
-                    fontSize: "14px",
-                    fontWeight: "600",
-                    cursor: "pointer",
-                    transition: "0.3s ease",
-                  }}
-                  onMouseOver={(e) => {
-                    e.target.style.background = "#0a7a0a";
-                  }}
-                  onMouseOut={(e) => {
-                    e.target.style.background = "green";
+                    margin: "5px 0 0",
+                    fontSize: "33px",
+                    color: "#e0e0e0",
+                    lineHeight: "1.4",
                   }}
                 >
-                  Explore / About
-                </button>
+                  Pure and authentic spices <br />
+                  crafted for rich aroma and taste
+                </p>
               </div>
+
+              {/* 🟢 Button (bottom-left stays same) */}
+              <button
+                style={{
+                  position: "absolute",
+                  bottom: "15px",
+                  left: "15px",
+                  padding: "8px 16px",
+                  borderRadius: "20px",
+                  border: "none",
+                  background: "green",
+                  color: "white",
+                  fontSize: "13px",
+                  fontWeight: "600",
+                  cursor: "pointer",
+                  zIndex: 2,
+                }}
+              >
+                Explore
+              </button>
             </div>
           ))}
         </div>
