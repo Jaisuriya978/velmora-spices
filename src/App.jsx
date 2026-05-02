@@ -10,28 +10,28 @@ const spicesData = [
     icon: "https://i.pinimg.com/736x/3e/f1/43/3ef143c731e347f88945c0acd6a029d0.jpg",
     desc: "Rich in curcumin, turmeric is known for its vibrant color and health benefits.",
     img: [
-      "https://i.pinimg.com/736x/a1/a1/27/a1a12706f3e130f4754fb9bca342f5ae.jpg",
+      "https://i.pinimg.com/1200x/23/e5/76/23e576b531566bfbdea8ddcaf18a252a.jpg",
       "https://i.pinimg.com/1200x/2b/c6/e0/2bc6e08cd51617bca3a7847b82b3c158.jpg",
       "https://i.pinimg.com/1200x/db/a7/41/dba7417557ffd57c74491a69b91279b8.jpg",
     ],
   },
 
   {
-    name: "Red Chili",
-    icon: "https://i.pinimg.com/736x/73/e9/92/73e99205045434fbcbcc052ec2b9437f.jpg",
+    name: "Red Chilli",
+    icon: "https://i.pinimg.com/736x/d0/e4/50/d0e45009587ef52bc0fa7078d1a77eb8.jpg",
     desc: "Adds heat and depth to dishes, made from dried red chilies.",
-    img: ["https://i.pinimg.com/736x/e0/5c/3b/e05c3b4f7e3f68db6b1f26db21e6a159.jpg",
-      "https://i.pinimg.com/736x/24/32/66/2432667533495c00a913dc0a676b8a49.jpg",
-      "https://i.pinimg.com/736x/6e/2d/62/6e2d624c4366e20a4498a4077770b156.jpg",
+    img: ["https://i.pinimg.com/1200x/ce/0b/37/ce0b3792a3a3ad3fc8bada62bb422264.jpg",
+      "https://i.pinimg.com/736x/48/52/45/48524592bb474db27b5fab9201af4524.jpg",
+      "https://i.pinimg.com/736x/ab/f4/67/abf467c19a9bfddb423f5e48563a4ce8.jpg",
     ]
 
   },
   {
     name: "Cumin",
-    icon: "https://i.pinimg.com/1200x/88/fe/8c/88fe8cd5b9ea1e1e7f75b2205764ef71.jpg",
+    icon: "https://i.pinimg.com/736x/4d/7b/2f/4d7b2feb1ae497d0e44da623c68f2d5b.jpg",
     desc: "Earthy and aromatic spice widely used in Indian cooking.",
     img: ["https://i.pinimg.com/1200x/20/84/a3/2084a3b2c2f46446d0440452329996f3.jpg",
-      "https://i.pinimg.com/1200x/17/2f/eb/172feb01c25a42e566b82f0561e39f06.jpg",
+      "https://i.pinimg.com/1200x/5b/26/8b/5b268bc8637be33e4d3b5256de507e25.jpg",
       "https://i.pinimg.com/1200x/8d/73/b0/8d73b057211f4be30635a5e6b0b8572d.jpg",
     ]
   },
@@ -40,8 +40,8 @@ const spicesData = [
     icon: "https://i.pinimg.com/736x/29/4a/58/294a586ed7b3a653db159faff268ab48.jpg",
     desc: "Mild citrus flavor, used in both whole and ground forms.",
     img: ["https://i.pinimg.com/736x/5f/40/41/5f40417a069e53ae0e7ee0ae8cf3cf48.jpg",
-      "https://i.pinimg.com/1200x/a5/0c/5c/a50c5c75305265e8f66674b4a53fdbc2.jpg",
-      "https://i.pinimg.com/736x/5c/b9/68/5cb96879aa7d28398309a14206bb8ba3.jpg",
+      "https://i.pinimg.com/736x/2f/5d/bb/2f5dbb7188f4448cf50fd8371bd713ce.jpg",
+      "https://i.pinimg.com/736x/bb/c0/94/bbc0946dcc704aba80944820de79e49c.jpg",
     ]
   },
   {
@@ -49,8 +49,8 @@ const spicesData = [
     icon: "https://i.pinimg.com/1200x/64/06/30/640630541e80b40d940be40b0f8ff410.jpg",
     desc: "Known as the 'Queen of Spices', cardamom has a sweet, floral aroma used in desserts, tea, and premium dishes.",
     img: ["https://i.pinimg.com/1200x/03/93/b9/0393b94827d2cb5318f7ca492bfb050c.jpg",
-      "https://i.pinimg.com/1200x/1c/4f/f5/1c4ff5b655486cff1d38b89aeb2e940c.jpg",
-      "https://i.pinimg.com/1200x/0b/9d/9d/0b9d9d0c6a17833926494d5a0b9ae737.jpg",
+      "https://i.pinimg.com/1200x/8c/f1/ab/8cf1abd64bd70254afcf5015402edc58.jpg",
+      "https://i.pinimg.com/736x/01/6d/e3/016de387bf7621bcbd5c183fe0b04164.jpg",
     ]
   },
   {
@@ -58,8 +58,8 @@ const spicesData = [
     desc: "Called the 'King of Spices', black pepper delivers sharp heat and is essential in global cuisines.",
     icon: "https://i.pinimg.com/1200x/24/51/7e/24517e958afd4a2c6dbfc6f9afb537f0.jpg",
     img: ["https://i.pinimg.com/1200x/0d/63/f5/0d63f55563df77cd41ff45e7bc8f673b.jpg",
-      "https://i.pinimg.com/736x/30/72/cc/3072ccf2d818b5e861aeee6cab76f59f.jpg",
-      "https://i.pinimg.com/1200x/1c/98/db/1c98dbb3c860456c405e4e4e351ca4a3.jpg",
+      "https://i.pinimg.com/736x/8a/54/44/8a5444a2baaee870540fd5dbded3213e.jpg",
+      "https://i.pinimg.com/1200x/64/e2/ce/64e2ce97645d0474e708976802cd577d.jpg",
     ]
   },
   {
@@ -67,17 +67,17 @@ const spicesData = [
     desc: "Fresh and aromatic leaves widely used in South Indian cooking, known for their unique flavor and health benefits.",
     icon: "https://i.pinimg.com/1200x/70/8c/34/708c34edaf06de5c5c76f947492222cf.jpg",
     img: ["https://i.pinimg.com/1200x/b0/29/1c/b0291c388e13185ed7917040455cc159.jpg",
-      "https://i.pinimg.com/1200x/e9/6e/4b/e96e4bf936db0b49330495d4a8707484.jpg",
-      "https://i.pinimg.com/736x/75/22/72/752272b6026414bfce09189404ad9db1.jpg",
+      "https://i.pinimg.com/736x/83/34/e4/8334e48a553c5610d41a0324e951ca74.jpg",
+      "https://i.pinimg.com/1200x/c2/78/ef/c278ef8fcc42c8d6584fa841ab8eb72b.jpg",
     ]
   },
   {
     name: "Cinnamon Stick",
-    icon: "https://i.pinimg.com/736x/e4/b6/0a/e4b60aa3399a734f00ca206f17837034.jpg",
+    icon: "https://i.pinimg.com/1200x/26/f3/8a/26f38a1a6a010688ac21a0851c441bc7.jpg",
     desc: "Sweet and woody spice used in desserts, teas, and savory dishes, adding warmth and rich aroma.",
-    img: ["https://i.pinimg.com/1200x/b9/c8/f7/b9c8f794f6f502003c6c12399681d05a.jpg",
-      "https://i.pinimg.com/236x/04/2f/b6/042fb6a736d4ade40e9f48dc159d3dec.jpg",
-      "https://i.pinimg.com/1200x/d5/a3/41/d5a3415276df6825e9d25f3f188ac105.jpg",
+    img: ["https://i.pinimg.com/1200x/7b/82/e0/7b82e0a26354765d05ce2d5c0a28e140.jpg",
+      "https://i.pinimg.com/736x/3f/e4/7e/3fe47ef92801031a5111b250ba2814af.jpg",
+      "https://i.pinimg.com/736x/63/03/21/6303218ed3654eb80949745b31cbcc3d.jpg",
     ]
   }
 ];
@@ -310,6 +310,7 @@ function App() {
             alignItems: "center",
           }}
         >
+
           {/* LEFT SIDE - IMAGE */}
           <div style={{ position: "relative" }}>
             <img
@@ -323,7 +324,23 @@ function App() {
             />
 
             {/* FLOATING CARD */}
-
+            <div
+              style={{
+                position: "absolute",
+                bottom: "20px",
+                left: "20px",
+                background: "none",
+                padding: "15px 20px",
+                borderRadius: "15px",
+                maxWidth: "220px",
+                animation: "fadeUp 1s ease",
+              }}
+            >
+              <h4 style={{ margin: 0, color: "white" }}>Pure Spices</h4>
+              <p style={{ margin: "5px 0 0", fontSize: "14px", color: "white" }}>
+                Fresh, natural and handpicked ingredients for better taste.
+              </p>
+            </div>
           </div>
 
           {/* RIGHT SIDE - CONTENT */}
@@ -411,7 +428,7 @@ function App() {
 
         {/* SPICES */}
         <div style={{ marginBottom: "70px" }}>
-          <h3 style={{ marginBottom: "25px" }}> </h3>
+          <h3 style={{ marginBottom: "45px" }}> </h3>
 
           {/* GRID */}
           <div
@@ -419,7 +436,7 @@ function App() {
               maxWidth: "1600px",
               margin: "auto",
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
               gap: "20px",
             }}
           >
